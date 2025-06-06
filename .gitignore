@@ -3,3 +3,10 @@
 /build/
 /output/
 /leetcode_answer/
+*.vcxproj
+/datasturture/Cppdatasture/Cppdatasture/
+/datastucture/Cppdatasture/Cppdatasture*
+/datastucture/Cppdatasture/x64/
+.vs/
+/datastucture/.vs/
+/datastucture/Cppdatasture/.vs/
