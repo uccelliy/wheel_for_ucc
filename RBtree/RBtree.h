@@ -1,5 +1,7 @@
 #pragma once
 
+
+
 template <typename T>
 class RBtree_n{
     public:
@@ -18,10 +20,15 @@ class RBtree{
     public:
         RBtree(T root_n){}
         ~RBtree(){}
+        //插入节点
         void insert(T val){}
+        //删除
         int remove(T val){}
+        //左旋转
         void left_rotate(RBtree_n<T>* node){}
+        //右旋转
         void right_rotate(RBtree_n<T>* node){}
+        //
         void fix_tree(RBtree_n<T>* node){}
         void erase_node(RBtree_n<T>* node){}
         void fix_tree_delete(RBtree_n<T>* node){}
